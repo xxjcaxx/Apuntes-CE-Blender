@@ -35,5 +35,37 @@ Recordem aplicar l'escala i entrem al mode Edició amb **Tab**. Ahí seleccionem
 
 ![tronc](imgs/redimensionartronc.gif "Redimensionar la part de dalt")
 
-Podem jugar amb les dimensions en el mode edició el que necessitem. Per veure cóm queda en vista frontal, podem pressionar **1** en el teclar numèric. Els altres números mostres altres vistes. 
+Podem jugar amb les dimensions en el mode edició el que necessitem. Per veure cóm queda en vista frontal, podem pressionar **1** en el teclat numèric. Els altres números mostres altres vistes. 
+
+Anem a crear les escales. Com que afecten sols a una part, podem extrudir en l'eix Y amb **E, Y** per tindre més polígons en eixe costat. 
+
+![estrusio](imgs/extrusioescales.gif "Estrusió per a les escales")
+
+Podem llevar les cares de la part de baix del model, ja que no es veuen en el joc.
+
+Per poder modelar l'escala sense afectar a la resta del tronc, podem separar-la amb **P**, eixir del mode edició i tornar a entrar amb l'objecte separat. Més endavant el podem tornar a juntar.
+
+![p](imgs/separarenP.gif "Separar amb P")
+
+Una vegada en el troç separat en mode edició, podem fer **Ctrl+R** per crear nous "edges" en la geometria, tant en vertical com en horitzontal. El separarem en vertical, separem de nou l'objecte en **P** i Separem el del mig en horitzontal
+
+Amb **Shift+Alt** Seleccionem un bucle sencer de vores. i el podem redimensionar en l'eix X amb **R, X**.
+
+![r](imgs/separarenR.gif "Separar amb R")
+
+Per fer els escalons, seleccionem totes les línies creades en **Ctrl+R** i apliquem en el botó dret **Bevel Edges**. Després, seleccionem una de cada nova vora creada i la desplacem abaix. Podem anar canviant de vistes per deixar-ho al nostre gust. Després es pot ajustar de nou.
+
+![escalons](imgs/escalons.gif "Creació dels escalons")
+
+Ara amb **Ctrl+J** Fusionem en mode Objecte totes les geometries. Per anar al detall, podem pressionar **.** En el teclar numèric i s'apropa al vertex seleccionat. Per pegar vertex, entrarem al menú de la tecla **M** després de seleccionar els dos vertex. 
+
+![fusionar vertex](imgs/fusionarvertex.gif "Fusionar vertex")
+
+Seleccionant les vores i amb **F** Podem omplir les cares que falten. Es creen triàngles, però no passa res.
+
+Després de varies operacions com les anteriors, he unit totes les cares, vores i vertex. També hem eliminat vores innecessàries o creat les que calen per millorar la geometria. Amb **Supr** i **Disolve Edges** eliminem els que vulguem sense eliminar les cares.
+En la captura encara queda una cara problemàtica, ja que la de dalt té més de 4 vores. Ja l'arreglarem. 
+
+![escales millorades](imgs/escalesacabades.png "Millores geomètriques en les escales")
+
 
