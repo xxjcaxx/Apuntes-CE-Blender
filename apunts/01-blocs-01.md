@@ -68,4 +68,8 @@ En la captura encara queda una cara problemàtica, ja que la de dalt té més de
 
 ![escales millorades](imgs/escalesacabades.png "Millores geomètriques en les escales")
 
+Amb la tecla **I** podem insertar una cara i amb **E** Extrusionar per crear un forat en la part de dalt:
+
+![I E](imgs/insertariextruir.png "Insertar Extruir")
+
 
