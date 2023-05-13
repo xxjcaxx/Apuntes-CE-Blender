@@ -16,7 +16,7 @@ En la secció de blocking anem a fer un model que pot servir com a "prop" en un 
 Li he demanat a una IA que genere una ruina futurista i m'ha generat una imatge que pot servir d'inspiració:
 ![inicial](imgs/dalleinicial.png "Imatge Inicial")
 
-Podria ser un portal entre estrelles abandonat per una antiga civilització.
+Podria ser un portal entre estrelles abandonat per una antiga civilització. La imatge no és molt nítida, però ha servit d'inspiració per fer alguna cosa pareguda amb llibertat per inventar els detalls.
 
 Deguem observar les geometries bàsiques. Per exemple, la part de baix pot ser un tronc de piràmide, la par de dalt són alguns anells connectats per rectangles. En la base es poden intuir unes escales per pujar als anells. 
 
@@ -24,7 +24,7 @@ Deguem observar les geometries bàsiques. Per exemple, la part de baix pot ser u
 
 ## Modelat del blocs
 
-En aquesta part es tracta de fer les formes geomètriques bàsiques amb pocs polígons. Sempre tractarem de fer polígons de **4 costats**. En un videojoc no podem tindre triangles o "n-gons", que són polígons de molts costats. 
+En aquesta part es tracta de fer les formes geomètriques bàsiques amb pocs polígons. Sempre tractarem de fer polígons de **4 costats**. En un videojoc no podem tindre "n-gons", que són polígons de molts costats. També evitarem els triangles, encara que no passa res.  
 Per una altra banda, sempre modelarem a **escala real**. Encara que siga una videojoc, els efectes de llums, textures i partícules estan dissenyats a escala per respectar la física. Al redimensionar qualsevol figura, deguem d'aplicar l'escala per a que estiga sempre a 1 amb **Ctrl+A**. 
 
 ### El tronc de piràmide

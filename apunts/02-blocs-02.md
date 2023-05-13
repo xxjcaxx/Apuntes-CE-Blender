@@ -16,9 +16,9 @@ Per crear el toroide podem seleccionar les cares, **I**, eliminar les cares del 
 
 ![toroide](imgs/toroide.gif "creacio del toroide")
 
-També podríem haver crear una circunferencia 2D i extrusionar. 
+També podríem haver crear una circunferencia 2D i extrusionar.
 
-Podem duplicar el toroide amb **Ctrl+D** i redimensionar. 
+Podem duplicar el toroide amb **Ctrl+D** i redimensionar.
 
 A continuació anem a crear els rectangles. No són regulars i no tenen perquè estar separats dels cilindres, així que unint vores els poden crear
 
@@ -27,3 +27,5 @@ A continuació anem a crear els rectangles. No són regulars i no tenen perquè 
 Després de crear totes les cares per al rectangles, el modelat en blocs bàsic està completat. En aquest cas no cal cap rectificació de geometria
 
 ![cilindre acabat](imgs/cilindreacabat.png "Cilindre Acabat")
+
+Per a treballar amb més comoditat, podem pressionar **/** per a ocultar la resta d'elements. 
