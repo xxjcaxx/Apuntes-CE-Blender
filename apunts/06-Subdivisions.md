@@ -14,7 +14,8 @@ En els modificadors, adefgim el de **Subdivision**. El resultat inicial es sembl
 
 Al fer el cilindre del portal li vam donar 16 cares, com que és molt gran, les cares es veuen massa rectes. Anem a utilitzar la subdivisió per millorar l'aspecte. El podem afegir amb **Ctrl+1**. Amés, afegim loops de contenció per no suavitzar les vores "dures".
 
-![Subdivisions portal](imgs/subdivisionportal.gif"Subdivisions portal")
+![Subdivisions portal](imgs/subdivisionportal.gif "Subdivisions portal")
 
 Quan estem conformes amb el modificador el podem **aplicar**.
 
+> Pot no ser recomanable fer les subdivisions, ja que generem molts més polígons. En aquest cas, el resultat tampoc és molt convincent i la forma més recta de la figura original és més convenient. Podem suavitzar d'un altra manera la part circular sense afectar a la geometría de tota el objecte. Seleccionant i aplicant bevel es pot quedar millor.

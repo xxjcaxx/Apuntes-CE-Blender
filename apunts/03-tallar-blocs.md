@@ -9,4 +9,4 @@ Amb extrusions sobre la normal (botó dret) i tractament individual de vertex i 
 
 ![imperfeccions](imgs/imperfeccions.gif "Imperfeccions")
 
-Seleccionant el **Proporcional Editing** Ens permet moure un vertex o un grup i afectar als dels voltants. El tenim disponible en la part de dalt de la interfície. 
+Seleccionant el **Proporcional Editing** Ens permet moure un vertex o un grup i afectar als dels voltants. El tenim disponible en la part de dalt de la interfície. Està disponible de forma ràpida amb **O**.
