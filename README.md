@@ -8,6 +8,8 @@ No obstant, cal fer una neteja i optimització que tal vegada no seria necessari
 
 Per disimular el fet de no tindre molts polígons, el procés continua fent la versió en **High Poly** per extreure les **UVS** i les textures que després aplicarem als models.
 
+> També es pot començar pel "high poly" i després llevar geometries. Aquesta metodologia és millor per a personatges, però no per a "props".
+
 ## Blocking i Low Poly
 
 * [Començant a modelar amb blocs](apunts/01-blocs-01.md) 
@@ -18,3 +20,6 @@ Per disimular el fet de no tindre molts polígons, el procés continua fent la v
 * [Subdivisions](apunts/06-Subdivisions.md) 
 * [Optimitzar Geometries](apunts/07-Optimitzargeometries.md)
 * [Esculpit](apunts/08-Esculpit.md) 
+
+
+## High Poly

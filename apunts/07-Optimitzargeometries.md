@@ -34,4 +34,8 @@ En resum:
 * Reparar les "normals".
 * Revisar estadístiques.
 * Confiar en la textura les imperfeccions subtils.
-* Els objectes ja net es poden anar guardant en una col·lecció. **M** En mode object. També podem posar-li nom i ocultar o evitar la selecció del que ja està. Posar nom als objectes és important per organització i per al **bake**. 
+* Els objectes ja nets es poden anar guardant en una col·lecció. **M** En mode object. També podem posar-li nom i ocultar o evitar la selecció del que ja està. Posar nom als objectes és important per organització i per al **bake**. Una bona idea és afegir la paraula "_low" al nom per indicar que és la versió "low poly".
+* Li podem afegir un material a cada objecte amb el mateix nom. També, encara que no fa falta, es pot canviar el color en el "viewport" a **Random** per diferenciar uns models d'altres. Aquest color no afecta al render.
+
+
+
