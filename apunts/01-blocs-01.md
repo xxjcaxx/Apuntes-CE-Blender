@@ -8,7 +8,7 @@ Instal·lar els plugins:
 
 Configurar en System > Undo Steps a 256 per poder tornar enrere fàcilment.
 
-Instal·lem també Pureref per veure per damunt sempre les imatges de referència. 
+Instal·lem també Pureref per veure per damunt sempre les imatges de referència.
 
 ## Detecció de les figures geomètriques bàsiques
 
@@ -24,8 +24,8 @@ Deguem observar les geometries bàsiques. Per exemple, la part de baix pot ser u
 
 ## Modelat del blocs
 
-En aquesta part es tracta de fer les formes geomètriques bàsiques amb pocs polígons. Sempre tractarem de fer polígons de **4 costats**. En un videojoc no podem tindre "n-gons", que són polígons de molts costats. També evitarem els triangles, encara que no passa res.  
-Per una altra banda, sempre modelarem a **escala real**. Encara que siga una videojoc, els efectes de llums, textures i partícules estan dissenyats a escala per respectar la física. Al redimensionar qualsevol figura, deguem d'aplicar l'escala per a que estiga sempre a 1 amb **Ctrl+A**. 
+En aquesta part es tracta de fer les formes geomètriques bàsiques amb pocs polígons. Sempre tractarem de fer polígons de **4 costats**. En un videojoc no podem tindre "n-gons", que són polígons de molts costats. També evitarem els triangles, encara que no passa res. Els triangles "trenquen" la geometria" i fan més difícil manipular les UV, tallar, treure loops...  
+Per una altra banda, sempre modelarem a **escala real**. Encara que siga una videojoc, els efectes de llums, textures i partícules estan dissenyats a escala per respectar la física. Al redimensionar qualsevol figura, deguem d'aplicar l'escala per a que estiga sempre a 1 amb **Ctrl+A**.
 
 ### El tronc de piràmide
 
@@ -35,7 +35,7 @@ Recordem aplicar l'escala i entrem al mode Edició amb **Tab**. Ahí seleccionem
 
 ![tronc](imgs/redimensionartronc.gif "Redimensionar la part de dalt")
 
-Podem jugar amb les dimensions en el mode edició el que necessitem. Per veure cóm queda en vista frontal, podem pressionar **1** en el teclat numèric. Els altres números mostres altres vistes. 
+Podem jugar amb les dimensions en el mode edició el que necessitem. Per veure cóm queda en vista frontal, podem pressionar **1** en el teclat numèric. Els altres números mostren altres vistes.
 
 Anem a crear les escales. Com que afecten sols a una part, podem extrudir en l'eix Y amb **E, Y** per tindre més polígons en eixe costat. 
 
@@ -71,5 +71,3 @@ En la captura encara queda una cara problemàtica, ja que la de dalt té més de
 Amb la tecla **I** podem insertar una cara i amb **E** Extrusionar per crear un forat en la part de dalt:
 
 ![I E](imgs/insertariextruir.png "Insertar Extruir")
-
-

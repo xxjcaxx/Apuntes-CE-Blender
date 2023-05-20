@@ -8,3 +8,4 @@ Amb **Mayus+Click** Suavitza l'efecte de la ferramenta.
 
 Es tracta de practicar molt el totes les ferramentes per agafar soltura. Els objectes amb moltes cares i sense ngons tenen més llibertat de moviments a canvi de pitjor rendiment posterior.
 
+> En el modelat High Poly és on s'aplica més l'escultura.

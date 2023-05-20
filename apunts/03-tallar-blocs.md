@@ -5,8 +5,10 @@ Per a aconseguir-ho, anem a utilitzar la ferramenta del ganivet **K**. Això pot
 
 ![tallar](imgs/knife.gif "Tallar")
 
-Amb extrusions sobre la normal (botó dret) i tractament individual de vertex i vores, creant noves cares amb **F** i amb **K** Farem més imperfeccions. També s'han crear bevels per suavitzar els trencaments. 
+Amb extrusions sobre la normal (botó dret) i tractament individual de vertex i vores, creant noves cares amb **F** i amb **K** Farem més imperfeccions. També s'han crear bevels per suavitzar els trencaments.
 
 ![imperfeccions](imgs/imperfeccions.gif "Imperfeccions")
 
 Seleccionant el **Proporcional Editing** Ens permet moure un vertex o un grup i afectar als dels voltants. El tenim disponible en la part de dalt de la interfície. Està disponible de forma ràpida amb **O**.
+
+> Hem modelat en low poly les imperfeccions més importants que afecten a la geometria del model. Les més menudes les modificarem en High poly.
