@@ -10,3 +10,5 @@ Per a que no quede tan suavitzat, hem marcat tots els angles rectes amv **Mark S
 
 ![Mark Sharp](imgs/marksharp.gif "Mark Sharp")
 
+A partir de Blender 3.6 es pot activar **Auto Smooth** dirèctament amb el botó dret. 
+

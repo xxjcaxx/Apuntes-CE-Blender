@@ -20,7 +20,7 @@ En els objectes intencionalment bidimensionals, es pot indicar al motor de video
 
 ## Quantitat de polígons
 
-Blender informa de les estadístiques emb una opció de visualització disponible dalt a la dreta. De vegades els encàrrecs o les necessitats del joc limiten els polígons que es poden utilitzar.
+Blender informa de les estadístiques amb una opció de visualització disponible dalt a la dreta. De vegades els encàrrecs o les necessitats del joc limiten els polígons que es poden utilitzar.
 
 ## Previsualització del resultat
 
