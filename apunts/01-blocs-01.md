@@ -29,7 +29,7 @@ Deguem observar les geometries bàsiques. Per exemple, la part de baix pot ser u
 En aquesta part es tracta de fer les formes geomètriques bàsiques amb pocs polígons. Sempre tractarem de fer polígons de **4 costats**. En un videojoc no podem tindre "n-gons", que són polígons de molts costats. També evitarem els triangles, encara que no passa res. Els triangles "trenquen" la geometria" i fan més difícil manipular les UV, tallar, treure loops...  
 Per una altra banda, sempre modelarem a **escala real**. Encara que siga una videojoc, els efectes de llums, textures i partícules estan dissenyats a escala per respectar la física. Al redimensionar qualsevol figura, deguem d'aplicar l'escala per a que estiga sempre a 1 amb **Ctrl+A**.
 
-> Una bona pràctica és fer que el model estiga sobre el cursor i aquest al centre de coordenades. Quan importem en un motor de joc, pot donar menys problemes. 
+> Una bona pràctica és fer que el model estiga sobre el cursor i aquest al centre de coordenades. Quan importem en un motor de joc, pot donar menys problemes.
 
 ### El tronc de piràmide
 
@@ -61,14 +61,14 @@ Per fer els escalons, seleccionem totes les línies creades en **Ctrl+R** i apli
 
 ![escalons](imgs/escalons.gif "Creació dels escalons")
 
-Ara amb **Ctrl+J** Fusionem en mode Objecte totes les geometries. Per anar al detall, podem pressionar **.** En el teclar numèric i s'apropa al vertex seleccionat. Per pegar vertex, entrarem al menú de la tecla **M** després de seleccionar els dos vertex. 
+Ara amb **Ctrl+J** Fusionem en mode Objecte totes les geometries. Per anar al detall, podem pressionar **.** En el teclar numèric i s'apropa al vertex seleccionat. Per pegar vertex, entrarem al menú de la tecla **M** després de seleccionar els dos vertex.
 
 ![fusionar vertex](imgs/fusionarvertex.gif "Fusionar vertex")
 
 Seleccionant les vores i amb **F** Podem omplir les cares que falten. Es creen triàngles, però no passa res.
 
 Després de varies operacions com les anteriors, he unit totes les cares, vores i vertex. També hem eliminat vores innecessàries o creat les que calen per millorar la geometria. Amb **Supr** i **Disolve Edges** eliminem els que vulguem sense eliminar les cares.
-En la captura encara queda una cara problemàtica, ja que la de dalt té més de 4 vores. Ja l'arreglarem. 
+En la captura encara queda una cara problemàtica, ja que la de dalt té més de 4 vores. Ja l'arreglarem.
 
 ![escales millorades](imgs/escalesacabades.png "Millores geomètriques en les escales")
 
